@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 module.exports = {
     name: 'commands',
     execute(interaction, bot){
-        Interaction.reply({
+        interaction.reply({
             embeds: [
                 new Discord.MessageEmbed()
                 .setTitle('Embetter Commands')

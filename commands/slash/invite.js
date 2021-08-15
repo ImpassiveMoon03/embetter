@@ -2,8 +2,8 @@ const Discord = require('discord.js')
 
 module.exports = {
     name: 'invite',
-    execute(message, bot){
-        Interaction.reply(
+    execute(interaction, bot){
+        interaction.reply(
             {
                 embeds: [
                     new Discord.MessageEmbed()
