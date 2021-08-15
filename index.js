@@ -31,20 +31,47 @@ bot.on('ready', () => {
     //     name: 'json',
     //     description: 'Get help on making embeds using JSON'
     // })
-    //
+    
     // bot.application.commands.create({
     //     name: 'help',
     //     description: 'Get help with the bot'
     // })
-    //
+    
     // bot.application.commands.create({
     //     name: 'commands',
     //     description: 'Get a list of bot commands'
     // })
-
+    
     // bot.application.commands.create({
     //     name: 'invite',
     //     description: 'Get the bot\'s invite link'
+    // })
+    
+    // bot.application.commands.create({
+    //     name: 'value',
+    //     description: 'View information on a certain key',
+    //     options: [
+    //         {
+    //             name: 'query',
+    //             type: "STRING",
+    //             description: 'The key to view',
+    //             required: true,
+    //             choices: [
+    //                 {name: 'name', value: 'name'},
+    //                 {name: 'avatar', value: 'avatar'},
+    //                 {name: 'content', value: 'content'},
+    //                 {name: 'title', value: 'title'},
+    //                 {name: 'description', value: 'description'},
+    //                 {name: 'thumbnail', value: 'thumbnail'},
+    //                 {name: 'image', value: 'image'},
+    //                 {name: 'url', value: 'url'},
+    //                 {name: 'color', value: 'color'},
+    //                 {name: 'author', value: 'author'},
+    //                 {name: 'fields', value: 'fields'},
+    //                 {name: 'footer', value: 'footer'}
+    //             ]
+    //         }
+    //     ]
     // })
 })
 
